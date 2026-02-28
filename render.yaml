@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: love-river-karting
+    env: static
+    buildCommand: echo "Build complete"
+    staticPublishPath: .

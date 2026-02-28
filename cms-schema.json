@@ -1,0 +1,167 @@
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "key": "brand",
+      "title": "品牌資訊",
+      "icon": "Store",
+      "fields": [
+        { "key": "name", "label": "品牌名稱", "type": "text", "required": true },
+        { "key": "name_en", "label": "英文名稱", "type": "text", "required": true },
+        { "key": "slogan", "label": "標語", "type": "text" },
+        { "key": "description", "label": "簡介", "type": "textarea" }
+      ]
+    },
+    {
+      "key": "hero",
+      "title": "首頁主視覺",
+      "icon": "Image",
+      "fields": [
+        { "key": "badge", "label": "標籤文字", "type": "text" },
+        { "key": "title_main", "label": "主標題", "type": "text", "required": true },
+        { "key": "title_sub", "label": "副標題", "type": "text" },
+        { "key": "description", "label": "描述文字", "type": "textarea" },
+        { "key": "background_image", "label": "背景圖片", "type": "image" },
+        {
+          "key": "stats",
+          "label": "統計數字",
+          "type": "repeater",
+          "fields": [
+            { "key": "number", "label": "數字", "type": "text", "required": true },
+            { "key": "label", "label": "說明", "type": "text", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "features",
+      "title": "場地特色",
+      "icon": "Star",
+      "fields": [
+        { "key": "badge", "label": "標籤文字", "type": "text" },
+        { "key": "title", "label": "區塊標題", "type": "text" },
+        {
+          "key": "items",
+          "label": "特色項目",
+          "type": "repeater",
+          "fields": [
+            { "key": "title", "label": "特色標題", "type": "text", "required": true },
+            { "key": "description", "label": "特色說明", "type": "textarea", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "track_record",
+      "title": "賽道最速圈紀錄",
+      "icon": "Trophy",
+      "fields": [
+        { "key": "badge", "label": "標籤文字", "type": "text" },
+        { "key": "title", "label": "區塊標題", "type": "text" },
+        {
+          "key": "records",
+          "label": "紀錄列表",
+          "type": "repeater",
+          "fields": [
+            { "key": "rank", "label": "排名", "type": "number", "required": true },
+            { "key": "name", "label": "姓名", "type": "text", "required": true },
+            { "key": "date", "label": "日期", "type": "text", "required": true },
+            { "key": "time", "label": "時間", "type": "text", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "history",
+      "title": "百年歷史故事",
+      "icon": "Clock",
+      "fields": [
+        { "key": "badge", "label": "標籤文字", "type": "text" },
+        { "key": "title", "label": "區塊標題", "type": "text" },
+        { "key": "intro", "label": "前言", "type": "textarea" },
+        {
+          "key": "timeline",
+          "label": "時間軸",
+          "type": "repeater",
+          "fields": [
+            { "key": "year", "label": "年份", "type": "text", "required": true },
+            { "key": "title", "label": "標題", "type": "text", "required": true },
+            { "key": "description", "label": "描述", "type": "textarea", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "instructors",
+      "title": "教練團隊",
+      "icon": "Users",
+      "fields": [
+        { "key": "badge", "label": "標籤文字", "type": "text" },
+        { "key": "title", "label": "區塊標題", "type": "text" },
+        { "key": "description", "label": "團隊簡介", "type": "textarea" },
+        {
+          "key": "team",
+          "label": "教練名單",
+          "type": "repeater",
+          "fields": [
+            { "key": "name", "label": "姓名", "type": "text", "required": true },
+            { "key": "name_en", "label": "英文名稱", "type": "text" },
+            { "key": "badge", "label": "職稱標籤", "type": "text" },
+            { "key": "years", "label": "年資", "type": "text", "required": true },
+            { "key": "specialty", "label": "專長領域", "type": "textarea", "required": true },
+            { "key": "achievements", "label": "獲獎紀錄", "type": "list" },
+            { "key": "philosophy", "label": "教學理念", "type": "textarea" },
+            { "key": "image", "label": "照片", "type": "image" }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "contact",
+      "title": "聯絡資訊",
+      "icon": "Phone",
+      "fields": [
+        { "key": "address", "label": "地址", "type": "text", "required": true },
+        { "key": "phone", "label": "電話", "type": "phone", "required": true },
+        { "key": "email", "label": "Email", "type": "email", "required": true },
+        {
+          "key": "hours",
+          "label": "營業時間",
+          "type": "repeater",
+          "fields": [
+            { "key": "days", "label": "星期", "type": "text", "required": true },
+            { "key": "hours", "label": "時間", "type": "text", "required": true }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "footer",
+      "title": "頁尾資訊",
+      "icon": "Layout",
+      "fields": [
+        { "key": "description", "label": "簡介文字", "type": "textarea" },
+        { "key": "company_id", "label": "統一編號", "type": "text" },
+        { "key": "copyright", "label": "版權聲明", "type": "text" }
+      ]
+    },
+    {
+      "key": "faq",
+      "title": "常見問題",
+      "icon": "HelpCircle",
+      "fields": [
+        { "key": "badge", "label": "標籤文字", "type": "text" },
+        { "key": "title", "label": "區塊標題", "type": "text" },
+        {
+          "key": "items",
+          "label": "問答列表",
+          "type": "repeater",
+          "fields": [
+            { "key": "question", "label": "問題", "type": "text", "required": true },
+            { "key": "answer", "label": "答案", "type": "textarea", "required": true }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "love-river-karting",
+  "version": "1.0.0",
+  "description": "愛河卡丁車場官方網站 - 高雄百年賽車場地",
+  "main": "index.html",
+  "scripts": {
+    "rebuild": "node rebuild.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "karting",
+    "racing",
+    "kaohsiung",
+    "love-river"
+  ],
+  "author": "Love River Karting Circuit",
+  "license": "MIT",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
