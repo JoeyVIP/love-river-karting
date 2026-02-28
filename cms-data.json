@@ -7,15 +7,27 @@
   },
   "hero": {
     "badge": "百年傳承 × 愛河河畔",
-    "title_main": "極速激情",
+    "title_main": "極速超激情",
     "title_sub": "都會賽道新體驗",
     "description": "自1926年創立，從腳踏車競速場到現代卡丁車賽道<br>百年賽車文化傳承，座落愛河河畔的都會型賽車聖地",
     "background_image": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?w=1920&h=1080&fit=crop",
     "stats": [
-      { "number": "98", "label": "年歷史" },
-      { "number": "1.2km", "label": "賽道長度" },
-      { "number": "12", "label": "專業彎道" },
-      { "number": "60km/h", "label": "最高時速" }
+      {
+        "number": "98",
+        "label": "年歷史"
+      },
+      {
+        "number": "1.2km",
+        "label": "賽道長度"
+      },
+      {
+        "number": "12",
+        "label": "專業彎道"
+      },
+      {
+        "number": "60km/h",
+        "label": "最高時速"
+      }
     ]
   },
   "features": {
@@ -52,11 +64,36 @@
     "badge": "速度榜",
     "title": "賽道最速圈紀錄",
     "records": [
-      { "rank": 1, "name": "陳威宏", "date": "2026-02-15", "time": "48.327" },
-      { "rank": 2, "name": "林佳穎", "date": "2026-01-28", "time": "48.891" },
-      { "rank": 3, "name": "黃俊傑", "date": "2026-02-03", "time": "49.156" },
-      { "rank": 4, "name": "王雅婷", "date": "2026-01-19", "time": "49.523" },
-      { "rank": 5, "name": "張建明", "date": "2026-02-07", "time": "49.834" }
+      {
+        "rank": 1,
+        "name": "陳威宏",
+        "date": "2026-02-15",
+        "time": "48.327"
+      },
+      {
+        "rank": 2,
+        "name": "林佳穎",
+        "date": "2026-01-28",
+        "time": "48.891"
+      },
+      {
+        "rank": 3,
+        "name": "黃俊傑",
+        "date": "2026-02-03",
+        "time": "49.156"
+      },
+      {
+        "rank": 4,
+        "name": "王雅婷",
+        "date": "2026-01-19",
+        "time": "49.523"
+      },
+      {
+        "rank": 5,
+        "name": "張建明",
+        "date": "2026-02-07",
+        "time": "49.834"
+      }
     ]
   },
   "history": {
@@ -182,9 +219,18 @@
     "phone": "07-2626-1926",
     "email": "info@loveriverkarting.tw",
     "hours": [
-      { "days": "週一至週五", "hours": "13:00 - 22:00" },
-      { "days": "週六、週日", "hours": "10:00 - 23:00" },
-      { "days": "國定假日", "hours": "10:00 - 23:00" }
+      {
+        "days": "週一至週五",
+        "hours": "13:00 - 22:00"
+      },
+      {
+        "days": "週六、週日",
+        "hours": "10:00 - 23:00"
+      },
+      {
+        "days": "國定假日",
+        "hours": "10:00 - 23:00"
+      }
     ]
   },
   "footer": {
